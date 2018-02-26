@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class AllienDao {
 	  private String url = "jdbc:mysql://localhost:3306/college";
 	  private String usrname = "root";
-	  private String password = "Atif123#1";
+	  private String password = "";
       public List<Allien> getAllien(String i){
     	  List<Allien> a = new ArrayList<>();
     	  try{
